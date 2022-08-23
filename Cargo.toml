@@ -6,7 +6,7 @@ license = "MIT"
 description = "File compression(zip) PAcKaging MANager"
 readme = "README.md"
 keywords = ["zip", "package"]
-categories = ["command-line-utitities"]
+categories = ["command-line-utilities"]
 repository = "https://github.com/robinbreast/pakman"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
