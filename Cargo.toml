@@ -2,6 +2,12 @@
 name = "pakman"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "File compression(zip) PAcKaging MANager"
+readme = "README.md"
+keywords = ["zip", "package"]
+categories = ["command-line-utitities"]
+repository = "https://github.com/robinbreast/pakman"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
