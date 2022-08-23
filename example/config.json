@@ -1,0 +1,47 @@
+{
+    "version": "0.0.1",
+    "packages": [
+        {
+            "name": "package-1",
+            "filepaths": [
+                "file1.txt",
+                "file2.txt",
+                "dir1/dir_file1.txt",
+                "dir2",
+                "dir3/"
+            ],
+            "shortcuts": [
+                {
+                    "name": "shortcut-1.bat",
+                    "target": "dir1/test1.bat",
+                    "cwd": "dir1"
+                },
+                {
+                    "name": "shortcut-2.bat",
+                    "target": "dir1/test2.cfg"
+                }
+            ]
+        },
+        {
+            "name": "package-2",
+            "filepaths": [
+                "file3.txt",
+                "file4.txt",
+                "dir3"
+            ],
+            "shortcuts": [
+                {
+                    "name": "shortcut-2.bat",
+                    "target": "dir1/test2.bat"
+                }
+            ]
+        },
+        {
+            "name": "package-3",
+            "filepaths": [
+                "file5.txt",
+                "dir4"
+            ]
+        }
+    ]
+}
