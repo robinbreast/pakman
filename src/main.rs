@@ -2,7 +2,7 @@ use anyhow::{anyhow, Result};
 use clap::Parser;
 use serde::Deserialize;
 //use std::fmt::format;
-use chrono::Utc;
+use chrono::Local;
 use std::fs::File;
 use std::io::prelude::*;
 use std::io::Write;
@@ -30,7 +30,7 @@ struct Args {
 
 fn default_output_filepath() -> String {
     let cwd = std::env::current_dir().unwrap();
-    let now = Utc::now();
+    let now = Local::now();
     String::from(
         format!(
             "{}-{}.zip",
